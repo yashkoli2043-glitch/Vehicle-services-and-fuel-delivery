@@ -10,7 +10,7 @@ def view_requests():
 
     win = Toplevel()
     win.title("All Requests")
-    win.geometry("400x300")
+    win.geometry("400x400")
 
     for row in data:
         Label(win, text=f"ID:{row[0]} | User:{row[1]} | Qty:{row[3]} | Status:{row[4]}").pack()
